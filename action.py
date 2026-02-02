@@ -251,6 +251,6 @@ if __name__ == "__main__":
 
     uvicorn.run(app, host="0.0.0.0", port=5856)
 
-# 部署在 43.136.88.66 /home/csm/project/TrendRadar
+# 部署在 8.136.106.100 /data/csm/project/TrendRadar
 # nohup python action.py > action.log 2>&1 &
 # pkill -f action.py
